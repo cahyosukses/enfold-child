@@ -1,0 +1,8 @@
+Widget Name : Footer - column1 
+
+Title:
+Online Support
+
+Content:
+Monday-Friday: 8:00-20:00
+Saturday-Sunday: 8:00-14:00

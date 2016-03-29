@@ -1,0 +1,372 @@
+/*
+Theme Name: Enfold Child
+Description: A <a href='http://codex.wordpress.org/Child_Themes'>Child Theme</a> for the Enfold Wordpress Theme. If you plan to do a lot of file modifications we recommend to use this Theme instead of the original Theme. Updating wil be much easier then.
+Version: 1.0
+Author: Kriesi
+Author URI: http://www.kriesi.at
+Template: enfold
+*/
+
+
+
+/*Add your own styles here:*/
+
+/* woocommerce top message */
+#top div.woocommerce-message {
+	background-color: #0085c3;
+	color: #FFFFFF;
+}
+/* Search field attributes */
+#top .header_color .input-text, #top .header_color input[type='text'], #top .header_color input[type='input'], #top .header_color input[type='password'], #top .header_color input[type='email'], #top .header_color input[type='number'], #top .header_color input[type='url'], #top .header_color input[type='tel'], #top .header_color input[type='search'], #top .header_color textarea, #top .header_color select {
+	border-color: #aaaaaa;
+	background-color: #f9f9f9;
+	color: #444444;
+}
+.header_color .ajax_search_title {
+	color: #FFFFFF;
+}
+#top .header_color .ajax_search_entry:hover {
+	background-color: #444444;
+}
+div .slideshow_caption h2 {
+	text-transform: none;
+}
+/* Product Details Page */
+.wc-bookings-booking-form {
+	padding: 0;
+	margin: 0;
+}
+form.cart .button {
+	float: right;
+}
+fieldset .av-form-text {
+	bottom: -12px;
+	position: absolute;
+	right: 1px;
+}
+fieldset .av-form-text a {
+	font-size: 13px;
+	text-decoration: none !important;
+}
+fieldset .av-form-text a:hover {
+	text-decoration: underline !important;
+}
+.single-product-main-image {
+	position: relative;
+}
+.frontpagebtn {
+	background-color: #444444;
+	border-color: #222222;
+	border-radius: 2px;
+	color: #ffffff !important;
+	display: block;
+	float: right;
+	font-family: inherit;
+	font-size: 12px;
+	line-height: 1em;
+	margin-top: 62px;
+	min-width: 110px;
+	padding: 15px;
+	text-align: center;
+	text-decoration: none;
+	width: 150px;
+}
+.backbtn {
+	background-color: #444444;
+	border-color: #222222;
+	color: #ffffff !important;
+	border-radius: 2px;
+	font-family: inherit;
+	font-size: 12px;
+	line-height: 1em;
+	min-width: 110px;
+	padding: 15px;
+	text-align: center;
+	text-decoration: none;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.backbtn-order {
+	background-color: #444444;
+	border-color: #222222;
+	color: #ffffff !important;
+	border-radius: 2px;
+	font-family: inherit;
+	font-size: 12px;
+	line-height: 1em;
+	min-width: 110px;
+	padding: 15px;
+	text-align: center;
+	text-decoration: none;
+	float: right;
+}
+.backbtn-order:hover, .frontpagebtn:hover, .backbtn:hover {
+	background-color: #aaaaaa;
+	border-color: #888888;
+	color: #ffffff;
+	text-decoration: none;
+}
+.upsells.products ul {
+	padding-top: 25px;
+}
+.cart-collaterals .cart_totals {
+	float: right !important;
+}
+.wc-proceed-to-checkout .checkout-button {
+	float: right;
+}
+.place-order #place_order {
+	float: right !important;
+}
+#payment .place-order {
+	overflow: hidden;
+}
+/* Add to cart */
+.products form {
+	display: none;
+}
+.upsells form {
+	display: block;
+}
+.upsells form .quantity {
+	display: none;
+}
+.upsells li {
+	position: relative;
+}
+/*.upsells form .single_add_to_cart_button {
+	border-radius: 50%;
+	display: block;
+	font-size: 60px;
+	font-weight: bold;
+	height: 58px;
+	line-height: 50px;
+	margin: 0;
+	min-width: 0;
+	padding: 0;
+	position: absolute;
+	right: 23px;
+	top: 84px;
+	width: 60px;
+}*/
+/*#main > .container_wrap_first{
+	display:none;
+}*/
+.play-video {
+	height: 323px;
+	overflow: hidden;
+	position: absolute;
+	right: 6%;
+	text-indent: -150px;
+	top: 20%;
+	width: 575px;
+	z-index: 999;
+}
+.upsells .products .inner_product_header {
+	height: 79px;
+}
+.upsells form .single_add_to_cart_button {
+	float: none;
+}
+.upsells .products form.cart {
+	text-align: center;
+}
+.video-container {
+	width: 50%;
+	display: none;
+}
+.video-container .avia-iframe-wrap, .video-container .avia-video {
+	margin-bottom: 0;
+}
+.video-container .content {
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+#fullscreen_slider_0 {
+	position: relative;
+}
+.video-container .container {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.recommended-accessories-wrap {
+	background-color: #fff;
+	border-radius: 5px;
+	display: none !important;
+	left: 0;
+	margin: 0 auto;
+	padding: 23px 30px;
+	position: fixed;
+	right: 0;
+	top: 222px;
+	width: 76%;
+	z-index: 1030;
+	-webkit-box-shadow: -2px 5px 5px 0px rgba(50, 50, 50, 0.5);
+	-moz-box-shadow: -2px 5px 5px 0px rgba(50, 50, 50, 0.5);
+	box-shadow: -2px 5px 5px 0px rgba(50, 50, 50, 0.5);
+}
+.closebookingwindow {
+	font-size: 23px;
+	font-weight: bold;
+	position: absolute;
+	right: 13px;
+	top: 9px;
+}
+.summary .cart {
+	z-index: 1 !important;
+}
+.overlay {
+	background-color: rgba(170,170,170,0.6);
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 111;
+}
+.proceed {
+	float: right !important;
+}
+.single .product_column {
+	margin-bottom: 0 !important;
+}
+.upsells li .thumbnail_container {
+	min-height: 294px;
+}
+.single-product .product {
+	overflow: hidden;
+	padding-bottom: 20px;
+}
+.footer_color .flex_column.first {
+	display: none;
+}
+#workshop_precision .avia-builder-widget-area .gform_confirmation_wrapper, #workshop_precision .avia-builder-widget-area h3, #workshop_precision .avia-builder-widget-area .gform_body, #workshop_precision .avia-builder-widget-area .gfield_required {
+	color: #fff;
+}
+#workshop_precision .avia-builder-widget-area li:first-child .gfield_label {
+	font-size: 16px;
+}
+.single-product-summary .woocommerce-tabs #tab-description, .single-product-summary .woocommerce-tabs .description_tab {
+	display: none !important;
+}
+/* Need this in parse 2 in future */
+.woocommerce-checkout-payment .payment_method_wc-booking-gateway {
+	display: none;
+}
+.avia_wpml_language_switch {
+	height: 17px;
+	position: absolute;
+}
+.avia_wpml_language_switch li .language_flag {
+	display: inline-block;
+}
+.avia_wpml_language_switch li:hover span, .avia_wpml_language_switch li:hover a, .avia_wpml_language_switch li:hover {
+	text-decoration: none !important;
+}
+.avia_wpml_language_switch li {
+	float: none !important;
+	padding: 3px 0 !important;
+}
+.avia_wpml_language_switch li .language_native {
+	display: inline-block;
+	position: relative;
+	top: -3px;
+}
+header .sub_menu .menu {
+	padding-right: 81px;
+}
+/* Intel Logo */
+.intel-family .intel-family-logo {
+	background: url('images/intel-family.png') no-repeat;
+	width: 107px;
+	height: 60px;
+}
+.intel-family .family-text {
+	color: #fff;
+	font-size: 12px;
+	line-height: 31px;
+}
+.intel-family {
+	left: 116px;
+	padding-top: 10px;
+	position: absolute;
+}
+#top div .widget_shopping_cart .button {
+	display: inline-block;
+}
+/* Personal Code Styles start */
+.personal_code_form p {
+	clear: both;
+	float: left;
+	margin: 11px 0;
+	position: relative;
+	width: 100%;
+}
+.personal_code_form .first_form {
+	clear: both;
+	margin-left: 0;
+}
+.personal_code_form .form_element_three_fourth {
+	clear: none;
+	float: left;
+	width: 74.8%;
+}
+.personal_code_form label, .modified_width::before {
+	display: block;
+	font-weight: 600;
+	margin-bottom: 7px;
+	position: relative;
+	visibility: visible;
+}
+.personal_code_form .form_element_fourth {
+	clear: none;
+	float: left;
+	margin-left: 1%;
+	width: 24.2%;
+}
+.personal_code_form p.hidden {
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 0;
+}
+#top .personal_code_form .text_input, #top .personal_code_form .select, #top .personal_code_form .text_area {
+	border-radius: 2px;
+	display: inline;
+	margin-bottom: 0;
+	min-width: 50px;
+	padding: 13px;
+	width: 100%;
+}
+.personal_code_form {
+	clear: both;
+}
+.personal_code_form .button {
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-radius: 2px;
+	font-size: 0.92em;
+	font-weight: normal;
+	margin: 0;
+	min-width: 142px;
+	outline: medium none;
+	padding: 16px 20px;
+}
+.personal_code_form p input, .personal_code_form p textarea, .personal_code_form p select, .personal_code_form p .input_checkbox_label {
+	transition: all 0.3s ease-in-out 0s;
+}
+.modified_width .button {
+	min-width: 0;
+	padding: 13px 10px 14px;
+	width: 100%;
+}
+/* Personal Code Styles end */
+ @media only screen and (max-width:750px) {
+.responsive .single-product-main-image {
+	margin-bottom: 25px;
+	padding-bottom: 55px;
+}
+.avia_wpml_language_switch {
+}
+}
